@@ -22,7 +22,7 @@ void PrintSum(int m, int n, int sum)
   sum = sum + n;
   if (n <= m)
   {
-    Console.Write($"Сумма элементов= {sum} ");
+    Console.Write($"Сумма элементов = {sum} ");
     return;
   }
   PrintSum(m, n - 1, sum);
